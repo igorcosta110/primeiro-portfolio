@@ -1,0 +1,62 @@
+/*#4a6da7 <- cor do site jw.org*/
+body {
+    background-color: #3b3d5d;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1f2235;
+    height: 100px;
+}
+
+.container {
+    /* border: 1px solid #ffff00; */
+    /* height: 100px;  */
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #fff;
+    background-color: #ff4a57;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #ff4a57;
+    background-color: #fff;
+}
+
+section {
+    /* border: 2px solid orange; */
+    width: 1170px;
+    margin: 70px auto 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 450px;
+}
+
+aside {
+    border: 1px solid white;
+    height: 400px;
+}
+
+.first-child {
+    width: 600px;
+    float: left;
+}
+
+.second-child {
+    width: 400px;
+    float: right;
+}

@@ -3,7 +3,8 @@ body {
     background-color: #3b3d5d;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 header {
@@ -12,11 +13,10 @@ header {
 }
 
 .container {
-    /* border: 1px solid #ffff00; */
-    /* height: 100px;  */
+    background-color: #1f2235;
+    padding: 36px 0 17px 0;
     width: 1170px;
     margin: 0 auto;
-    padding-top: 36px;
 }
 
 .menu {
@@ -26,6 +26,8 @@ header {
 .menu a {
     color: #fff;
     background-color: #ff4a57;
+    background: #8899aa;
+
     padding: 10px 20px;
     font-size: 18px;
     display: inline-block;
@@ -38,16 +40,12 @@ header {
 }
 
 section {
-    /* border: 2px solid orange; */
     width: 1170px;
     margin: 70px auto 0 auto;
-    /* margin-left: auto;
-    margin-right: auto; */
     height: 450px;
 }
 
 aside {
-    border: 1px solid white;
     height: 400px;
 }
 

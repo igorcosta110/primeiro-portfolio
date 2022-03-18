@@ -1,0 +1,23 @@
+form {
+    border: 3px solid lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin:10px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.send-button {
+    align-self: flex-end;
+    width: 70px;
+}

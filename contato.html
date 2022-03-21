@@ -22,7 +22,7 @@
     </header>
     <section>
         <aside class="first-child">
-            <form action="submit" class="form">
+            <form action="submit" class="form" onsubmit="return validarSubmissao()">
                 <input type="text" placeholder="Digite o seu nome" class="text-form" onblur="validarDados(0)">
                 <input type="text" placeholder="Digite o seu e-mail" class="text-form" onblur="validarDados(1)">
                 <textarea cols="30" rows="7" placeholder="Digite a sua mensagem" class="text-form" onblur="validarDados(2)"></textarea>

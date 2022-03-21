@@ -6,16 +6,16 @@ form {
 
 input, textarea {
     margin:0 10px 10px 10px;
-    background: transparent;
+    background: rgba(200, 200, 200, .3);
     border: 1px solid white;
     border-radius: 10px;
     outline: none;
     padding: 10px;
 }
 
-input:focus, textarea:focus {
-    background: #fff;
-    color:#000;
+input:focus, textarea:focus, input:hover, textarea:hover {
+    background: rgba(136, 153, 170, .5);
+    color:#fff;
 }
 
 input:focus::placeholder, textarea:focus::placeholder{

@@ -1,6 +1,10 @@
 /*#4a6da7 <- cor do site jw.org*/
 body {
-    background-color: #3b3d5d;
+    background-color: #3c5d3b;
+    background: rgba(0, 0, 0, 0.4) url('../img/forest2.jpg');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -9,11 +13,14 @@ body {
 
 header {
     background-color: #1f2235;
+    background-color: #21351f;
+    background-color: rgba(33, 53, 31, .85);
     height: 100px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36);
 }
 
 .container {
-    background-color: #1f2235;
+    background-color: transparent;
     padding: 36px 0 17px 0;
     width: 1170px;
     margin: 0 auto;
@@ -26,8 +33,7 @@ header {
 .menu a {
     color: #fff;
     background-color: #ff4a57;
-    background: #8899aa;
-
+    background: rgba(200, 200, 200, .5);
     padding: 10px 20px;
     font-size: 18px;
     display: inline-block;
@@ -35,8 +41,7 @@ header {
 }
 
 .menu a:hover {
-    color: #ff4a57;
-    background-color: #fff;
+    background: #8899aa;
 }
 
 section {

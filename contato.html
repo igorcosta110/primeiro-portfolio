@@ -23,10 +23,13 @@
     <section>
         <aside class="first-child">
             <form action="submit" class="form">
-                <input type="text" placeholder="Digite o seu nome">
-                <input type="text" placeholder="Digite o seu e-mail">
-                <textarea cols="30" rows="10" placeholder="Digite a sua mensagem"></textarea>
-                <input class="send-button" type="submit" placeholder="Enviar">
+                <input type="text" placeholder="Digite o seu nome" class="text-form" onblur="validarDados(0)">
+                <input type="text" placeholder="Digite o seu e-mail" class="text-form" onblur="validarDados(1)">
+                <textarea cols="30" rows="7" placeholder="Digite a sua mensagem" class="text-form" onblur="validarDados(2)"></textarea>
+                <div class="wrap">
+                    <p class="error"></p>
+                    <input class="send-button text-form" type="submit" placeholder="Enviar">
+                </div>
             </form>
         </aside>
         <aside class="second-child">
@@ -35,7 +38,7 @@
         </aside>
     </section>    
 
-
+    <script src="js/contato.js"></script>
 
 </body>
 </html>

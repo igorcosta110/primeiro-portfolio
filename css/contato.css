@@ -1,11 +1,11 @@
 form {
-    border: 3px solid lightblue;
+    /* border: 3px solid lightblue; */
     display: flex;
     flex-direction: column;
 }
 
 input, textarea {
-    margin:10px;
+    margin:0 10px 10px 10px;
     background: transparent;
     border: 1px solid white;
     border-radius: 10px;
@@ -13,11 +13,40 @@ input, textarea {
     padding: 10px;
 }
 
+input:focus, textarea:focus {
+    background: #fff;
+    color:#000;
+}
+
+input:focus::placeholder, textarea:focus::placeholder{
+    color: #888;
+}
+
+form textarea {
+    height: 128px;
+}
+
 iframe {
     border-radius: 10px;
 }
 
 .send-button {
-    align-self: flex-end;
+    float: right;
     width: 70px;
+    color:#fff;
+}
+
+.text-form, .text-form::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+}
+.text-form::placeholder {
+    color: #fff;
+}
+
+.error {
+    float: left;
+    margin: 13px 0 16px 16px;
+    color: red;
+    font-size: .9em;
 }
